@@ -1,0 +1,30 @@
+{
+  "name": "nuxt-app",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare",
+    "test": "vitest"
+  },
+  "dependencies": {
+    "@picocss/pico": "^2.1.1",
+    "better-sqlite3": "^12.2.0",
+    "flatpickr": "^4.6.13",
+    "nuxt": "^4.0.1",
+    "vue": "^3.5.18",
+    "vue-flatpickr-component": "^12.0.0",
+    "vue-router": "^4.5.1"
+  },
+  "devDependencies": {
+    "@nuxt/kit": "^4.0.2",
+    "@nuxt/test-utils": "^3.19.2",
+    "@playwright/test": "^1.54.2",
+    "@vue/test-utils": "^2.4.6",
+    "happy-dom": "^18.0.1",
+    "vitest": "^3.2.4"
+  }
+}
